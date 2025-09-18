@@ -33,3 +33,32 @@ h1{
   #natawa{
     color: blue !important;
   } */
+/* 
+  *{
+    color: yellow;
+  } */
+
+    /* #natawa{
+    color: red
+  }
+  h1{
+    color: blue 
+  } */
+/* 
+  div h1{
+    color: red;
+  } */
+
+  /* .main {
+    color: red;
+  } */
+/* 
+  h1{
+    color: rgb(250, 250, 250);
+  } */
+  
+  h1{
+    color: red;
+    background-color: orange;
+  font-size: 1000px;
+  }
