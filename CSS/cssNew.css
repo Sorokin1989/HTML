@@ -1,4 +1,4 @@
-p{
+/* p{ */
     /* margin: 50px; */
     /* padding: 50px;
     margin-top: 100px; */
@@ -33,4 +33,22 @@ background-size: 50px;
 background-repeat: repeat-y; */
 
 
+/* } */
+
+p{
+width: 100px;
+height: 100px;
+background-color: red;
+margin:0px ; 
+border-radius: 100px;
+margin-bottom: 5px;
+
+
+}
+
+div{
+    background-color: green;
+    width: max-content;
+    padding: 10px;
+     
 }
