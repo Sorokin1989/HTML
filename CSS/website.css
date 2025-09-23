@@ -23,4 +23,34 @@ body{
     width: 80px;
     height: 80px;
     margin-left: 20px;
+    float: left;
+}
+
+.header-text{
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 100px;
+}
+
+.menu-ul{
+    margin: 0px;
+    list-style: none;
+}
+
+li{
+    display: inline;
+    line-height: 30px;
+    margin-left: 50px;
+
+
+}
+
+*{
+    user-select: none;
+}
+
+li:hover{
+    cursor: pointer;
+    color: red;
 }
