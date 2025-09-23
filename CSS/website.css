@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.header{
+    background-color:blue ;
+    height: 80px;
+}
+.menu{
+    background-color: aqua;
+    height: 30px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
