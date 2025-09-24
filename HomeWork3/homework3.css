@@ -1,9 +1,10 @@
 .container{
-    background-color: rgb(212, 207, 207);
-    width: 1000px;
-    height: 500px;
-   
+    background-color: rgb(219, 218, 218);
+    width: 800px;
+    height: 550px;
 }
+
+
 body{
     margin: 0px;
 }
@@ -31,8 +32,8 @@ margin-top: 20px;
   height: 150px;
   border-radius: 15%;
   border: 2px solid rgb(148, 139, 139) ;
-margin-left: 30px;
-margin-top: 20px;
+margin-left: 15px;
+margin-top: 15px;
 text-align: center;
 display: inline-block;
 
@@ -49,15 +50,34 @@ display: inline-block;
   height: 150px;
   border-radius: 15%;
   border: 2px solid rgb(148, 139, 139) ;
+  margin-left: 15px;
+margin-top: 15px;
+text-align: center;
+display: inline-block;
 
-margin-top: 10px;
-float: left;
+
 
 }
 
 .picture{
-    text-align: center
+    
+     text-align:center; 
+     
+    
+
+
 }
 
+hr{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 
+}
+
+.end-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
     
