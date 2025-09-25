@@ -1,8 +1,8 @@
 
 .container{
     width: 1200px;
-    height: 800px;
-    background-color: rgb(229, 229, 232);
+    height: 750px;
+    background-color: white;
 
 
  
@@ -10,7 +10,8 @@
 }
 
 body{
-    margin: auto;
+    margin: 20px;
+    /* margin: auto; */
  
       /* justify-content: flex-end;
       align-items: flex-start; */
@@ -20,10 +21,11 @@ body{
 }
 
 .header{
-    background-color: crimson;
+    background-color: #923158;
     height: 100px;
       display: flex;
    align-items: center;
+      margin-right: 20px;
 
 }
 
@@ -33,18 +35,19 @@ h1{
     font-weight: bold;
     font-size: 30px;
     color: white;
-    /* margin: 0px; */
     padding-left: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+
 .menu{
-    background-color:darkred ;
+    background-color:#6E1237;
    margin-top: 20px;
    height: 80px;
    display: flex;
    align-items: center;
+      margin-right: 20px;
  
 }
 
@@ -53,9 +56,9 @@ h1{
     margin-top: 20px;
     width: 300px;
     height: 100px;
-    /* display: flex; */
+    display: flex;
     align-items: center;
-    /* justify-content: center; */
+ 
 
 }
 
@@ -64,32 +67,99 @@ h1{
     margin-top: 20px;
     width: 300px;
     height: 170px;
-    align-items: center;
+
+    /* align-items: center; */
 
 }
 
-.maincontent{
+
+ .maincontent{
     background-color: blueviolet;
+ 
     margin-left: 320px;
-    margin-right: 200px;
+    margin-right: 185px;
     margin-top: -310px;
-    padding-bottom: 275px;
- align-items: center;
-}
+    padding-bottom: 50px;
+ /* align-items: center; */
+} 
 
  .aside3{
     background-color: chocolate;
-    margin-left: 1020px;
+    height: 290px;
+    width: 145px;
+    float: right;
     margin-right: 20px;
-    margin-top: -390px;
+    margin-top: -290px;
      display: flex;
-  align-items: center;     
-  justify-content: center;
+  justify-content: center; /* по горизонтали */
+  align-items: center;     /* по вертикали */
+
+    /* display: flex; */
+
+    
+
+    /* margin-left: 1020px;
+    margin-right: 20px;
+    margin-top: -390px; */
+     /* display: flex; */
+  /* align-items: center;     
+  justify-content: center; */
 
  }
    
- .aside3 h1{
+ .aside3-text{
  writing-mode: vertical-rl;
  text-orientation:upright;
-padding-right: 90px;
+padding-right: 70px;
+padding: 0px;
+
+ 
+
+
+
+ /* padding-right: 10px; */
+
+
+
+/* padding-right: 90px; */
+ /* justify-content: center; 
+  align-items: center;    */
+ }
+
+ .footer{
+    background-color: rgb(22, 22, 219);
+    /* margin-top:20px; */
+       margin-right: 20px;
+
+ }
+
+ .section1{
+    background-color: aquamarine;
+margin-left: 70px;
+margin-right: 70px;
+margin-top: -30px;
+height: 120px;
+
+
+/* align-items: center; */
+
+
+
+
+
+   
+ }
+
+ .section2{
+    background-color: burlywood;
+margin-left: 70px;
+margin-right: 70px;
+  height: 120px;
+ 
+/* align-items: center; */
+
+ }
+ .section-text{
+    padding-top: 20px;
+    padding-left: 85px;
  }
