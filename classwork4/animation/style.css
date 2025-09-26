@@ -12,12 +12,46 @@
     transition: 5s;
 }
  
-*:hover{
+.box:hover{
     background-color: blue;
     transition: 5s;
+    animation-name: test-animation;
+animation-duration: 1s;
+animation-iteration-count: 2;
+animation-direction: reverse;
+animation-direction: alternate;
     /* transform: translate(0,1000px); */
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
+    /* transform: rotate3d(0,0,0,0);
+    transform: rotate3d(1,1,1,45deg);
+    transform: rotate3d(2,-1,-1,-0.2turn);
+    transform: rotate3d(0,1,0.5,3.142rad); */
+    /* transform: scale(-2); */
+    /* transform:skew(50deg,50deg) ; */
+
+  
 }
+
+  @keyframes test-animation {
+        0%{
+            background-color:green;
+        }
+         25%{
+            background-color: orange;
+        }
+         50%{
+            background-color: blue;
+        }
+         75%{
+            background-color: yellow;
+        }
+        100%{
+            background-color: white;
+        }
+
+    }
+
+
 
 .container{
     display: flex;
