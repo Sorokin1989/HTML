@@ -102,11 +102,16 @@
 
  .main{
     width: 70%;
-    background-color: rgb(146, 101, 33);
+    background-color: rgb(177, 124, 44);
  }
 
  .footer{
        height: 100px;
-    background-color: blueviolet;
+    background-color: rgb(107, 76, 136);
  
+ }
+
+ *:hover{
+   transition: 5s;
+   transform: rotate(360deg);
  }
