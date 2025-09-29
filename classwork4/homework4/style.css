@@ -1,15 +1,17 @@
-  /* Контейнер с фиксированной высотой и прокруткой */
+
 .container {
- 
   overflow-y: auto;
  background-color:#F5F5F5;
     width: 1200px;
      max-height: 600px; 
-    /* height: 800px; */
     margin: auto;
-    /* display: flex; */
-    /* align-items:center; */
-    /* justify-content: center; */
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
  th {
@@ -22,8 +24,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .nth-child{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -32,15 +32,6 @@
 td{
      font-family: Arial, Helvetica, sans-serif;
 }
-
-
-/* .last-child{
-    background-color: #F5F5F5;
-    width: 1100px;
-    height: 650px;
-}  */
-
-
 
 
 table tr:not(:first-child) td:not(:first-child) {
@@ -56,25 +47,19 @@ table tr:nth-child(odd):not(:first-child) td:not(:first-child) {
     background-color: #F5F5F5; 
 }
 
-
-
 table {
   border-collapse: collapse;
   width: 100%;
  
 }
 
-
-/* Стили для ячеек */
 td, th {
      text-align: center;
-      padding: 30px; /* больше отступов */
-  font-size: 18px; /* увеличить размер шрифта */
+      padding: 30px;
+  font-size: 18px;
   height: 30px;
 }
 
-
-/* Стили для первой колонки, если нужно */
 .nth-child {
   font-weight: bold;
   background-color: #ADD8E6;
