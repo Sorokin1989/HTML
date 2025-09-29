@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Таблица с фиксированной шапкой</title>
+<style>
+  /* Контейнер с фиксированной высотой и прокруткой */
+  .scroll-container {
+    width: 800px;
+    height: 300px;
+    overflow-y: auto;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background: #f0f0f0;
+    border: 1px solid #999;
+    padding: 8px;
+    z-index: 10; /* чтобы находиться выше tbody */
+  }
+
+  tbody td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="scroll-container">
+  <table>
+    <thead>
+      <tr>
+        <th>№</th>
+        <th>Столбец 1</th>
+        <th>Столбец 2</th>
+        <th>Столбец 3</th>
+        <th>Столбец 4</th>
+        <th>Столбец 5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>23</td><td>123</td><td>43</td><td>12</td><td>76</td></tr>
+      <tr><td>2</td><td>23</td><td>123</td><td>43</td><td>12</td><td>76</td></tr>
+      <tr><td>3</td><td>34</td><td>63</td><td>25</td><td>7</td><td>23</td></tr>
+      <tr><td>4</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+      <tr><td>5</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+      <tr><td>6</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+      <tr><td>7</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+      <tr><td>8</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+      <tr><td>9</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+      <tr><td>10</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
