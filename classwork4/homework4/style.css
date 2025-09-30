@@ -1,10 +1,12 @@
 
 .container {
   overflow-y: auto;
+  overflow-x: auto;
  background-color:#F5F5F5;
     width: 1200px;
      max-height: 600px; 
     margin: auto;
+    position: relative;
 }
 
 
@@ -14,7 +16,7 @@ html, body {
   width: 100%;
 }
 
- th {
+   th {
   position: sticky;
   top: 0;
   background-color: #ADD8E6;
@@ -49,7 +51,7 @@ table tr:nth-child(odd):not(:first-child) td:not(:first-child) {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 1500px;
  
 }
 
@@ -64,3 +66,12 @@ td, th {
   font-weight: bold;
   background-color: #ADD8E6;
 }
+
+ 
+table th:first-child,
+table td:first-child {
+  position: sticky;
+  left: 0; 
+  background-color: #ADD8E6; 
+}
+
