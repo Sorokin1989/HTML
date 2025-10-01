@@ -1,8 +1,55 @@
 
-$main-color:violet;
+$main-color:white;
 $child-color:green;
 $text-color:gold;
 $text-size:100px;
+
+
+.box{
+    background-color: red;
+    margin: 10px;
+   font-size: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   height: 100px;
+   border: 10px solid black;
+
+
+}
+
+@for $i from 1 through 5{
+    .box:nth-child(#{$i}){
+       background-color: rgb(random(255), random(255),
+        random(255));
+
+    }
+}
+
+// .box{
+//       background-color:$main-color;
+//    border: 10px solid black;
+//     padding: 10px;
+//         // color: $text-color;
+// @if $main-color==red {
+//     color: black;
+// }@else if $main-color==green {
+//     color: blue;
+// }
+//     @else if $main-color==blue {
+//     color: red;
+//     }
+// @else if $main-color==white {
+//     color: black;
+// }@else {
+
+// }
+    
+
+
+
+// }
 
 // @mixin my-text() {
 //     color:white;
@@ -22,26 +69,26 @@ $text-size:100px;
 
 
 
-%btn{
-    border:10px solid black ;
-    padding: 20px;
-    background-color: red;
-      font-size: 100px;
+// %btn{
+//     border:10px solid black ;
+//     padding: 20px;
+//     background-color: red;
+//       font-size: 100px;
 
-}
-.button-main{
-    @extend %btn;
-    color: yellow;
-    font-size: $text-size/2
+// }
+// .button-main{
+//     @extend %btn;
+//     color: yellow;
+//     font-size: $text-size/2
 
-}
+// }
 
-.button-test{
-    @extend %btn;
- color: green;
- font-size: $text-size/4;
+// .button-test{
+//     @extend %btn;
+//  color: green;
+//  font-size: $text-size/4;
 
-}
+// }
 
 
 
