@@ -1,16 +1,16 @@
-.conteiner {
+.button-test, .button-main {
+  border: 10px solid black;
+  padding: 20px;
   background-color: red;
-  width: 400px;
-  height: 400px;
   font-size: 100px;
-  border: 10px solid black;
-  padding: 10px;
 }
-.conteiner .box {
-  background-color: blue;
-  border: 10px solid black;
-  padding: 10px;
+
+.button-main {
+  color: yellow;
+  font-size: 50px;
 }
-.conteiner .box p {
-  color: white;
+
+.button-test {
+  color: green;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */

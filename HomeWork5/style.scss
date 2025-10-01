@@ -1,18 +1,68 @@
-.conteiner{
-    background-color:red;
-    width: 400px;
-    height: 400px;
-    font-size: 100px;
-    border: 10px solid black;
-    padding: 10px;
 
-.box{
-    background-color: blue;
-    border: 10px solid black;
-    padding: 10px;
-    p{
-        color: white;
-    }
+$main-color:violet;
+$child-color:green;
+$text-color:gold;
+$text-size:100px;
+
+// @mixin my-text() {
+//     color:white;
+//     font-family: 'Times New Roman', Times, serif;
+//     font-weight: bold;
+//     background-color: aqua;
+// }
+
+
+
+// @mixin my-text($color:yellow,$bc:pink) {
+//     color:$color;
+//     font-family: 'Times New Roman', Times, serif;
+//     font-weight: bold;
+//     background-color: $bc;
+// }
+
+
+
+%btn{
+    border:10px solid black ;
+    padding: 20px;
+    background-color: red;
+      font-size: 100px;
+
+}
+.button-main{
+    @extend %btn;
+    color: yellow;
+    font-size: $text-size/2
+
 }
 
+.button-test{
+    @extend %btn;
+ color: green;
+ font-size: $text-size/4;
+
 }
+
+
+
+// .conteiner{
+//     background-color:$main-color;
+//     width: 400px;
+//     height: 400px;
+//     font-size: $text-size;
+//     border: 10px solid black;
+//     padding: 10px;
+//     //    @include  my-text();
+
+// .box{
+//     background-color:$child-color;
+//     border: 10px solid black;
+//     padding: 10px;
+//         color: $text-color;
+//         // @include  my-text();
+    
+    
+// }
+
+// }
+
