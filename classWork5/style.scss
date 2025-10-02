@@ -3,29 +3,33 @@ $main-color:white;
 $child-color:green;
 $text-color:gold;
 $text-size:100px;
-
+@function squred($num) {
+    @return $num*$num;
+}
 
 .box{
-    background-color: red;
+    // background-color:lighten(red,20%);
     margin: 10px;
    font-size: 35px;
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 100px;
-   height: 100px;
+   width:squred(10)+px;
+   height:squred(10)+px;
    border: 10px solid black;
 
 
 }
 
-@for $i from 1 through 5{
-    .box:nth-child(#{$i}){
-       background-color: rgb(random(255), random(255),
-        random(255));
 
-    }
-}
+
+// @for $i from 1 through 5{
+//     .box:nth-child(#{$i}){
+//        background-color: rgb(random(255), random(255),
+//         random(255));
+
+//     }
+// }
 
 // .box{
 //       background-color:$main-color;

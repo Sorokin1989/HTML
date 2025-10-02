@@ -1,0 +1,10 @@
+.box {
+  margin: 10px;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+}/*# sourceMappingURL=style.css.map */
