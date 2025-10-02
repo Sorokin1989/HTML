@@ -7,14 +7,14 @@
   align-items: start;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px 30px;
 }
 
 .column1 {
   height: 450px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .column1 .box1 {
   width: 100%;
@@ -29,7 +29,7 @@
   height: 350px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .column2 .box2 {
   width: 100%;
@@ -44,7 +44,7 @@
   height: 400px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .column3 .box3 {
   width: 100%;
@@ -59,7 +59,6 @@
   height: 350px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
 }
 .column4 .box4 {
   width: 100%;
@@ -74,7 +73,6 @@
   height: 450px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
 }
 .column5 .box5 {
   width: 100%;
@@ -89,7 +87,6 @@
   height: 700px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
 }
 .column6 .box6 {
   width: 100%;
@@ -104,7 +101,6 @@
   height: 400px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
 }
 .column7 .box7 {
   width: 100%;
@@ -119,7 +115,6 @@
   height: 450px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
 }
 .column8 .box8 {
   width: 100%;
@@ -134,7 +129,6 @@
   height: 350px;
   width: 30%;
   background-color: #F5F5F5;
-  margin-top: 50px;
 }
 .column9 .box9 {
   width: 100%;
@@ -158,12 +152,20 @@ p {
   margin: 30px;
 }
 
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6,
+.column7,
+.column8,
+.column9 {
+  flex-direction: column;
+}
+
 .size-text {
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
   color: #8C8986;
-}
-
-* {
-  box-sizing: border-box;
 }/*# sourceMappingURL=style2.css.map */

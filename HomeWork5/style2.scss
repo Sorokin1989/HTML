@@ -7,7 +7,11 @@
   align-items: start;
   justify-content: center;
  flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px 30px;
+  
+
+//   align-items: flex-end;
+
 
  
 }
@@ -18,7 +22,9 @@
     height: 450px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+    margin-top: 30px;
+    // margin-bottom: 30px;
+   
 
     .box1{
     width: 100%;
@@ -37,7 +43,8 @@
     height: 350px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+    margin-top: 30px;
+    // margin-bottom: 30px;
  
     .box2{
     width: 100%;
@@ -55,7 +62,10 @@
     height: 400px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+    margin-top: 30px;
+//  margin-bottom: 30px;
+ 
+
 
     .box3{
     width: 100%;
@@ -71,7 +81,8 @@
     height: 350px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+ 
+  
   
     .box4{
     width: 100%;
@@ -89,7 +100,7 @@
     height: 450px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+   
  
     .box5{
     width: 100%;
@@ -107,7 +118,8 @@
     height: 700px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+
+
 
     .box6{
     width: 100%;
@@ -123,7 +135,7 @@
     height: 400px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+
   
     .box7{
     width: 100%;
@@ -141,7 +153,7 @@
     height: 450px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+
  
     .box8{
     width: 100%;
@@ -159,7 +171,7 @@
     height: 350px;
     width: 30%;
     background-color: #F5F5F5;
-    margin-top: 50px;
+
   
     .box9{
     width: 100%;
@@ -188,6 +200,19 @@ p{
 }
 
 
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6,
+.column7,
+.column8,
+.column9 {
+
+   flex-direction: column;
+}
+
 
 
 
@@ -198,6 +223,31 @@ font-family:Arial, Helvetica, sans-serif;
 color: #8C8986;
 }
 
-* {
-  box-sizing: border-box;
-}
+// * {
+//   box-sizing: border-box;
+// }
+
+// .row {
+//   display: flex;
+//   justify-content: center; /* по вашему */
+//   align-items: flex-start;   /* выравнивание по низу */
+//   gap: 30px;               /* промежутки между колонками */
+//   margin-bottom: 30px;     /* отступ между рядами */
+// }
+
+// .row {
+//   display: flex;
+//   justify-content: space-between; /* равномерный отступ между колонками */
+//   margin-bottom: 30px; /* фиксированный отступ между рядами */
+// }
+
+// /* У последней строки убираем нижний отступ */
+// .row:last-child {
+//   margin-bottom: 0;
+// }
+
+// /* По ширине колонки */
+// .row > div {
+//   width: 360px; /* (1200 - 2*30px) / 3 = 360px если отступы около 30px */
+//   box-sizing: border-box;
+// }
