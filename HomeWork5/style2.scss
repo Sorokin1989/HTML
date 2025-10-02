@@ -1,44 +1,58 @@
 .conteiner{
     width: 1200px;
-    height: 800px;
-  background-color: aqua;
+    height: auto;
+  background-color:#ADD8E6;
   margin: auto;
   display: flex;
   align-items: start;
   justify-content: center;
+ flex-wrap: wrap;
+  gap: 20px;
+
+ 
 }
 
+
+
 .column1{
-    height: 500px;
-    width: 33%;
-    background-color: white;
+    height: 450px;
+    width: 30%;
+    background-color: #F5F5F5;
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
+
+    // margin-left: 30px;
+    // margin-right: 30px;
+   
+    // box-sizing: border-box;
+    // display: flex;
+    // align-items: start;
+    // justify-content: start;
     .box1{
     width: 100%;
     height: 150px;
-    background-color: grey;
+    background-color:#C3C3C3;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 
 }
     
 }
     .column2{
-    height: 500px;
-    width: 33%;
-    background-color: white;
+    height: 350px;
+    width: 30%;
+    background-color: #F5F5F5;
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
+    // margin-left: 30px;
+    // margin-right: 30px;
+    // box-sizing: border-box;
+    // display: flex;
     .box2{
     width: 100%;
     height: 100px;
-    background-color: grey;
+    background-color: #C3C3C3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,22 +62,142 @@
 }
 
 .column3{
-    height: 500px;
-    width: 33%;
-    background-color: white;
+    height: 400px;
+    width: 30%;
+    background-color: #F5F5F5;
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
+    // margin-left: 30px;
+    // margin-right: 30px;
+    // box-sizing: border-box;
+    // display: flex;
     .box3{
     width: 100%;
     height: 100px;
-    background-color: grey;
+    background-color:#C3C3C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+.column4{
+    height: 450px;
+    width: 30%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+  
+    .box1{
+    width: 100%;
+    height: 150px;
+    background-color:#C3C3C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+    
+}
+    .column5{
+    height: 350px;
+    width: 30%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+ 
+    .box2{
+    width: 100%;
+    height: 100px;
+    background-color: #C3C3C3;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+ 
+}
+
+.column6{
+    height: 400px;
+    width: 30%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+
+    .box3{
+    width: 100%;
+    height: 100px;
+    background-color:#C3C3C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+.column7{
+    height: 450px;
+    width: 30%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+  
+    .box1{
+    width: 100%;
+    height: 150px;
+    background-color:#C3C3C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+    
+}
+    .column8{
+    height: 350px;
+    width: 30%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+ 
+    .box2{
+    width: 100%;
+    height: 100px;
+    background-color: #C3C3C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+}
+
+.column9{
+    height: 400px;
+    width: 30%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+  
+    .box3{
+    width: 100%;
+    height: 100px;
+    background-color:#C3C3C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+span{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  margin: 30px;
+
+
 }
 
 
@@ -71,11 +205,12 @@
 
 
 
-
-
-
-p{
-font-size: 50px;
+.size-text{
+font-size: 45px;
 font-family:Arial, Helvetica, sans-serif;
-color: lightgrey;
+color: #8C8986;
+}
+
+* {
+  box-sizing: border-box;
 }
