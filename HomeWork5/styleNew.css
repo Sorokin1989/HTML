@@ -4,23 +4,63 @@
   background-color: lightgray;
   margin: auto;
   display: flex;
-  align-items: start;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .conteiner .girl {
   display: flex;
-  align-items: start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px;
+  margin-left: -135px;
+  margin-bottom: -30px;
 }
-.conteiner .message {
+.conteiner .girl-text {
   background-color: chocolate;
   width: 350px;
-  height: 30;
+  margin-left: 20px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner .boy {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 30px;
+  margin-right: -135px;
+  flex-direction: row-reverse;
+}
+.conteiner .boy-text {
+  background-color: rgb(74, 89, 224);
+  width: 350px;
+  margin-right: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-  width: 100px;
+  width: 70px;
+}
+
+.time-text {
+  line-height: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.girl.time-text p {
+  font-size: 15px;
+  text-align: right;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }/*# sourceMappingURL=styleNew.css.map */
