@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: flex-start;
   margin: 30px;
-  margin-left: -135px;
+  margin-left: -165px;
   margin-bottom: -30px;
 }
 .conteiner .girl-text {
@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: flex-end;
   margin: 30px;
-  margin-right: -135px;
+  margin-right: -165px;
   flex-direction: row-reverse;
 }
 .conteiner .boy-text {
@@ -55,12 +55,16 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.girl.time-text p {
-  font-size: 15px;
+.girl .time-text p {
   text-align: right;
+}
+
+.time-text p {
+  color: grey;
 }
 
 span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 20px;
 }/*# sourceMappingURL=styleNew.css.map */
