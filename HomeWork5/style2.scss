@@ -1,30 +1,20 @@
 .conteiner{
-    width: 1200px;
-    height: auto;
+    width: 90%;
+     max-width: 1200px;
   background-color:#ADD8E6;
   margin: auto;
   display: flex;
-  align-items: start;
+  align-items: flex-start;;
   justify-content: center;
  flex-wrap: wrap;
-  gap: 30px 30px;
-  
-
-//   align-items: flex-end;
-
-
- 
+  gap: 30px;
 }
-
-
 
 .column1{
     height: 450px;
     width: 30%;
     background-color: #F5F5F5;
     margin-top: 30px;
-    // margin-bottom: 30px;
-   
 
     .box1{
     width: 100%;
@@ -33,9 +23,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
-
 }
     
 }
@@ -44,7 +31,8 @@
     width: 30%;
     background-color: #F5F5F5;
     margin-top: 30px;
-    // margin-bottom: 30px;
+
+
  
     .box2{
     width: 100%;
@@ -63,8 +51,6 @@
     width: 30%;
     background-color: #F5F5F5;
     margin-top: 30px;
-//  margin-bottom: 30px;
- 
 
 
     .box3{
@@ -81,6 +67,7 @@
     height: 350px;
     width: 30%;
     background-color: #F5F5F5;
+    padding-bottom: -30px;
  
   
   
@@ -100,6 +87,8 @@
     height: 450px;
     width: 30%;
     background-color: #F5F5F5;
+    margin-top: -143px;
+    padding-bottom: 10px;
    
  
     .box5{
@@ -118,6 +107,7 @@
     height: 700px;
     width: 30%;
     background-color: #F5F5F5;
+     margin-top: -50px;
 
 
 
@@ -135,6 +125,7 @@
     height: 400px;
     width: 30%;
     background-color: #F5F5F5;
+      margin-top: -230px;
 
   
     .box7{
@@ -153,6 +144,7 @@
     height: 450px;
     width: 30%;
     background-color: #F5F5F5;
+      margin-top: -230px;
 
  
     .box8{
@@ -171,6 +163,7 @@
     height: 350px;
     width: 30%;
     background-color: #F5F5F5;
+  margin-bottom: 30px;
 
   
     .box9{
@@ -209,45 +202,37 @@ p{
 .column7,
 .column8,
 .column9 {
-
+ height: auto;
+  max-width: 30%;
    flex-direction: column;
+     box-sizing: border-box;
+      word-wrap: break-word; 
+    word-break: break-word;  
+    overflow-wrap: break-word; 
 }
 
 
-
-
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px; 
+    word-break: break-word; 
+}
 
 .size-text{
 font-size: 45px;
 font-family:Arial, Helvetica, sans-serif;
 color: #8C8986;
+ margin: 0;
+    padding: 0;
+    word-wrap: break-word; 
+    max-width: 100%;
+    word-break: break-word;
+
+
 }
 
-// * {
-//   box-sizing: border-box;
-// }
-
-// .row {
-//   display: flex;
-//   justify-content: center; /* по вашему */
-//   align-items: flex-start;   /* выравнивание по низу */
-//   gap: 30px;               /* промежутки между колонками */
-//   margin-bottom: 30px;     /* отступ между рядами */
-// }
-
-// .row {
-//   display: flex;
-//   justify-content: space-between; /* равномерный отступ между колонками */
-//   margin-bottom: 30px; /* фиксированный отступ между рядами */
-// }
-
-// /* У последней строки убираем нижний отступ */
-// .row:last-child {
-//   margin-bottom: 0;
-// }
-
-// /* По ширине колонки */
-// .row > div {
-//   width: 360px; /* (1200 - 2*30px) / 3 = 360px если отступы около 30px */
-//   box-sizing: border-box;
-// }

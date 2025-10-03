@@ -1,13 +1,13 @@
 .conteiner {
-  width: 1200px;
-  height: auto;
+  width: 90%;
+  max-width: 1200px;
   background-color: #ADD8E6;
   margin: auto;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px 30px;
+  gap: 30px;
 }
 
 .column1 {
@@ -59,6 +59,7 @@
   height: 350px;
   width: 30%;
   background-color: #F5F5F5;
+  padding-bottom: -30px;
 }
 .column4 .box4 {
   width: 100%;
@@ -73,6 +74,8 @@
   height: 450px;
   width: 30%;
   background-color: #F5F5F5;
+  margin-top: -143px;
+  padding-bottom: 10px;
 }
 .column5 .box5 {
   width: 100%;
@@ -87,6 +90,7 @@
   height: 700px;
   width: 30%;
   background-color: #F5F5F5;
+  margin-top: -50px;
 }
 .column6 .box6 {
   width: 100%;
@@ -101,6 +105,7 @@
   height: 400px;
   width: 30%;
   background-color: #F5F5F5;
+  margin-top: -230px;
 }
 .column7 .box7 {
   width: 100%;
@@ -115,6 +120,7 @@
   height: 450px;
   width: 30%;
   background-color: #F5F5F5;
+  margin-top: -230px;
 }
 .column8 .box8 {
   width: 100%;
@@ -129,6 +135,7 @@
   height: 350px;
   width: 30%;
   background-color: #F5F5F5;
+  margin-bottom: 30px;
 }
 .column9 .box9 {
   width: 100%;
@@ -161,11 +168,33 @@ p {
 .column7,
 .column8,
 .column9 {
+  height: auto;
+  max-width: 30%;
   flex-direction: column;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  word-break: break-word;
 }
 
 .size-text {
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
   color: #8C8986;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  max-width: 100%;
+  word-break: break-word;
 }/*# sourceMappingURL=style2.css.map */

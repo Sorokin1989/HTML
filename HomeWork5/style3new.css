@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.conteiner {
+  width: 90%; /* чуть чуть шире, чтобы быть более гибким */
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #ADD8E6;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9 {
+  flex: 1 1 30%; /* гибкая ширина, минимально 30% */
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+}
+
+/* Высоты колонок — лучше убрать или оставить минимальные */
+.column1 {
+  min-height: 150px;
+}
+
+.column2 {
+  min-height: 100px;
+}
+
+/* остальные можно оставить или убрать фиксированные высоты */
+/* Внутренние блоки */
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C3C3C3;
+}
+
+.box1 {
+  height: 150px;
+}
+
+.box2 {
+  height: 100px;
+}
+
+.box3 {
+  height: 100px;
+}/*# sourceMappingURL=style3new.css.map */
