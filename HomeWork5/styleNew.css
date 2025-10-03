@@ -1,7 +1,7 @@
 .conteiner {
   width: 1200px;
   height: 650px;
-  background-color: lightgray;
+  background-color: #F5F5F5;
   margin: auto;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   margin-bottom: -30px;
 }
 .conteiner .girl-text {
-  background-color: chocolate;
+  background-color: #FFB6C1;
   width: 350px;
   margin-left: 20px;
   border-top-left-radius: 20px;
@@ -41,7 +41,7 @@
   margin-bottom: -30px;
 }
 .conteiner .boy-text {
-  background-color: rgb(74, 89, 224);
+  background-color: #ADD8E6;
   width: 350px;
   margin-right: 20px;
   border-top-left-radius: 20px;
@@ -56,7 +56,8 @@
 }
 
 img {
-  width: 70px;
+  width: 50px;
+  margin: 10px;
 }
 
 .time-text {
