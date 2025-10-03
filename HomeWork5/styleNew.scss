@@ -1,0 +1,30 @@
+.conteiner{
+    width: 1200px;
+    height: 800px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+
+    .girl{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+.message{
+    background-color: chocolate;
+    width: 350px;
+    height: 30;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+}
+img {
+  width: 100px;
+  
+}
+
