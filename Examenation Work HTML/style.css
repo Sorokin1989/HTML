@@ -8,4 +8,16 @@
 
 p {
   line-height: 10px;
+}
+
+.bank {
+  width: 100px;
+}
+
+.ms-1 {
+  margin-right: 10px;
+}
+
+span, data {
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
