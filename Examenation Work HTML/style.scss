@@ -17,4 +17,42 @@ p{
 
 span,data{
     font-size: 12px;
+    font-weight: 500;
+   
+}
+
+
+.medal{
+    width: 35px;
+    display: flex;
+
+    flex-direction: column;
+}
+.one-text{
+    border: 2px solid grey;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+}
+
+.one-text-right{
+    border: 2px solid grey;
+    width: 30px;
+    height: 30px;
+    rotate: 45deg;
+    margin-left: -15px;
+    margin-top: 5px;
+    border-left: none;
+    border-bottom: none;
+}
+.two-text{
+    border: 2px solid grey;
+      width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
