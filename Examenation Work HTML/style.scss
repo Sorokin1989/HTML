@@ -23,11 +23,16 @@ span,data{
 
 
 .medal{
-    width: 35px;
-    display: flex;
-
-    flex-direction: column;
+    width: 30px;
+    // display: flex;
+    // flex-direction: column;
 }
+
+.one-u{
+margin-left: -3px;
+}
+
+
 .one-text{
     border: 2px solid grey;
     width: 150px;
