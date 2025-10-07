@@ -6,6 +6,12 @@
   background-color: #1B5589;
 }
 
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+  border-width: 2px;
+}
+
 p {
   line-height: 10px;
 }
@@ -32,8 +38,8 @@ span, data {
 }
 
 .one-text {
-  border: 2px solid grey;
-  width: 150px;
+  border: 2px solid lightgray;
+  width: 200px;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -42,7 +48,7 @@ span, data {
 }
 
 .one-text-right {
-  border: 2px solid grey;
+  border: 2px solid lightgray;
   width: 20px;
   height: 20px;
   rotate: 45deg;
@@ -52,8 +58,8 @@ span, data {
 }
 
 .two-text {
-  border: 2px solid grey;
-  width: 100px;
+  border: 2px solid lightgray;
+  width: 150px;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -62,7 +68,7 @@ span, data {
 }
 
 .one-text-left {
-  border: 2px solid grey;
+  border: 2px solid lightgray;
   width: 20px;
   height: 20px;
   rotate: 45deg;
@@ -72,8 +78,8 @@ span, data {
 }
 
 .three-text {
-  border: 2px solid grey;
-  width: 150px;
+  border: 2px solid lightgray;
+  width: 200px;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -82,11 +88,20 @@ span, data {
 }
 
 .four-text {
-  border: 2px solid grey;
-  width: 100px;
+  border: 2px solid lightgray;
+  width: 150px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-left: none;
+}
+
+.index-text {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.btn {
+  width: 535px;
 }/*# sourceMappingURL=style.css.map */
