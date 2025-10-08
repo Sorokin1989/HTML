@@ -30,17 +30,20 @@ hr {
 
 .loops-text {
   padding-right: 220px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  line-height: 2;
 }
 
 .loops-text2 {
   padding-right: 130px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  line-height: 2;
 }
 
 .loops-text3 {
   padding-right: 185px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  line-height: 2;
 }
 
 .box {
