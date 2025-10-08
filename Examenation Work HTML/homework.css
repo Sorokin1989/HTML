@@ -38,6 +38,11 @@ hr {
   padding-bottom: 30px;
 }
 
+.loops-text3 {
+  padding-right: 185px;
+  padding-bottom: 30px;
+}
+
 .box {
   margin-left: 33px;
   margin-right: 33px;
@@ -52,4 +57,25 @@ hr {
 .stroke-icon {
   -webkit-text-stroke: 1px currentColor;
   paint-order: stroke fill;
+}
+
+#green {
+  background-color: #6FD084;
+}
+
+#coral {
+  background-color: #F98691;
+}
+
+#grey {
+  background-color: #F5F5F5;
+}
+
+.greylite {
+  background-color: lightgrey;
+}
+
+.message {
+  margin-left: 280px;
+  margin-bottom: -15px;
 }/*# sourceMappingURL=homework.css.map */
