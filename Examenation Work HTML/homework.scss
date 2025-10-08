@@ -1,0 +1,57 @@
+.avatar{
+    width: 50px;
+}
+.navbar{
+    background-color: #1B5589;
+}
+
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+   border-width: 2px;
+
+}
+.text-center{
+  margin-left: 150px;
+ 
+   
+}
+
+.round-text{
+    margin-right: 150px;
+    margin-top: -50px;  
+}
+
+.loops{
+    background-color: lightgrey;
+    border: 2px solid grey;
+    width: 350px;
+    height: 150px;
+}
+
+.loops-text{
+     padding-right: 220px;
+     padding-bottom: 30px;
+}
+.loops-text2{
+     padding-right: 130px;
+     padding-bottom: 30px;
+}
+
+.box{
+     margin-left: 33px;
+     margin-right: 33px;
+}
+
+// .btn:hover{
+//    background-color: red;
+// }
+.hover-effect:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    filter: brightness(0.9);
+}
+.stroke-icon{
+    -webkit-text-stroke: 1px currentColor;
+    paint-order: stroke fill;
+}
