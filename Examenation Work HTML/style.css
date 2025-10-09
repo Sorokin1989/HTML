@@ -104,4 +104,9 @@ span, data {
 
 .btn {
   width: 535px;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

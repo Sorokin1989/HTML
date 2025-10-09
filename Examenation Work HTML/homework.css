@@ -80,4 +80,9 @@ hr {
 .message {
   margin-left: 290px;
   margin-bottom: -10px;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=homework.css.map */
