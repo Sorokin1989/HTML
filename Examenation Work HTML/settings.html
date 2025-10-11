@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./settings.css">
-    
+
 </head>
+
 <body>
     <nav class="navbar  navbar-expand-lg  ">
         <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
             <img class="pic ms-3" src="./images/Безымянный.png" alt="picture1">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,78 +38,76 @@
     </nav>
     <h1 class="d-flex justify-content-center text-body-secondary mt-4 mb-5">Settings</h1>
     </div>
-        <nav class="navbar navbar-expand-lg ms-5 me-5" style="background-color:#CCE5FF ;">
+    <nav class="navbar navbar-expand-lg ms-5 me-5" style="background-color:#CCE5FF ;">
         <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
-            
-            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-flex justify-content-start" id="navbarText">
-                 <div class="d-flex align-items-center">
-                      <div class="ms-4"> 
-                       <span class="avatar-text fs-5">AVATAR</span>
+                <div class="d-flex align-items-center">
+                    <div class="ms-4">
+                        <span class="avatar-text fs-5">AVATAR</span>
                     </div>
-                   <div>
-                    <span class="student-text fs-5">STUDENT'S INFO</span>
+                    <div>
+                        <span class="student-text fs-5">STUDENT'S INFO</span>
                     </div>
-                   <div class="ms-5">
-                     <span class="password-text fs-5">CHANGE PASSWORD</span>
+                    <div class="ms-5">
+                        <span class="password-text fs-5">CHANGE PASSWORD</span>
+                    </div>
                 </div>
-                 </div>
             </div>
         </div>
     </nav>
 
 
     <div class="d-flex justify-content-between ms-5 me-5">
-
-
         <div class="d-flex align-items-start flex-column mt-5">
-        <img src="./images/user.png" alt="picture5">
-        <button type="button" class="btn btn-secondary" style="width: 150px;">Choose photo </button>  
+            <img src="./images/user.png" alt="picture5">
+            <button type="button" class="btn btn-secondary" style="width: 150px;">Choose photo </button>
+        </div>
+
+        <div>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control mt-5 mb-3" placeholder="First name">
+
+                    <input type="text" class="form-control mb-3" placeholder="Last name">
+
+                    <input type="email" class="form-control mb-3" placeholder="Email" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+
+                    <input type="number" class="form-control mb-3" placeholder="Phone number">
+
+                    <input type="text" class="form-control mb-3" placeholder="Address">
+
+
+                    <input type="text" class="form-control mb-3" placeholder="FB-link">
+                </div>
+                <button type="submit" class="btn btn-secondary">Save changes</button>
+            </form>
+        </div>
+
+        <div">
+            <form>
+
+                <div class="mb-3 mt-3">
+
+                    <input type="password" class="form-control mt-5" placeholder="Old password">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="New password">
+                </div>
+                <div class="mb-3">
+
+                    <input type="password" class="form-control" placeholder="Repeat password">
+                </div>
+
+                <button type="submit" class="btn btn-secondary">Change password</button>
+            </form>
     </div>
-
-   <div>
-     <form>
-  <div class="mb-3">
-    <input type="text" class="form-control mt-5 mb-3" placeholder="First name">
-
-    <input type="text" class="form-control mb-3" placeholder="Last name">
-
-    <input type="email" class="form-control mb-3"   placeholder="Email"  id="exampleInputEmail1" aria-describedby="emailHelp">
-
-    <input type="number" class="form-control mb-3" placeholder="Phone number" >
-
-    <input type="text" class="form-control mb-3" placeholder="Address">
-
-    
-    <input type="text" class="form-control mb-3" placeholder="FB-link">
-     </div>
-  <button type="submit" class="btn btn-secondary">Save changes</button>
-</form>
-   </div>
-
-   <div">
-<form>
-  
-  <div class="mb-3 mt-3">
-
-    <input type="password" class="form-control mt-5" placeholder="Old password">
-  </div>
-  <div class="mb-3">
-    <input type="password" class="form-control" placeholder="New password">
-  </div>
-  <div class="mb-3">
-
-    <input type="password" class="form-control" placeholder="Repeat password">
-  </div>
- 
-  <button type="submit" class="btn btn-secondary">Change password</button>
-</form>
-   </div>
     </div>
 
 </body>
+
 </html>
